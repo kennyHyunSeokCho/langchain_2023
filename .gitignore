@@ -1,0 +1,28 @@
+# Credentials and local settings
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# Virtual environments and Python build files
+env/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Uploaded documents, generated files and caches
+.cache/
+files/
+outputs/
+*.log
+.pytest_cache/
+graphify-out/
+
+# OS/editor files
+.DS_Store
+.idea/
+.vscode/
